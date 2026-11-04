@@ -1,0 +1,15 @@
+[
+    {
+        "day": 1,
+        "date": "2026-12-01",
+        "content": {
+            "kind": "quiz",
+            "title": "Hvor meget søvn har du brug for?",
+            "subtitle": "Test din viden om søvn",
+            "question": "Hvor meget søvn anbefales voksne typisk at få hver nat?",
+            "answers": ["4–5 timer", "5–6 timer", "7–9 timer"],
+            "correctAnswer": 2,
+            "explanation": "De fleste voksne har brug for omkring 7–9 timers søvn, selvom behovet varierer fra person til person."
+        }
+    }
+]
