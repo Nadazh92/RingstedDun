@@ -7,9 +7,164 @@
             "title": "Hvor meget søvn har du brug for?",
             "subtitle": "Test din viden om søvn",
             "question": "Hvor meget søvn anbefales voksne typisk at få hver nat?",
-            "answers": ["4–5 timer", "5–6 timer", "7–9 timer"],
-            "correctAnswer": 2,
+            "options": [
+                {"id": 1, "text": "6-7 timer", "correct": false},
+                {"id": 2, "text": "7-9 timer", "correct": true},
+                {"id": 3, "text": "9-10 timer", "correct": false}
+            ],
             "explanation": "De fleste voksne har brug for omkring 7–9 timers søvn, selvom behovet varierer fra person til person."
         }
+    },
+
+    {
+        "day": 2,
+        "date": "2026-12-02",
+        "content": {
+            "kind": "trueFalse",
+            "title": "Vidste du det?",
+            "statement": "Du kan forbedre din søvnkvalitet ved at vælge en dyne, der passer til dit behov.",
+            "correct": true,
+            "explanation": "Sandt! Hvis du vælger en dyne, der passer til dit varmebehov, undgår du at vågne om natten, fordi du fryser eller sveder. Ringsted Dun har dyner i forskellige varmegrader, så du kan finde den, der passer til dig."
+        }
+    },
+
+    {
+        "day": 3,
+        "date": "2026-12-03",
+        "content": {
+            "kind": "info",
+            "title": "Dynevælgeren",
+            "text": "Er du nysgerrig på hvilken dyne, der passer til dig? Dynevælgeren er en guide, der giver dig vores bud på dit bedste match.",
+            "link": {
+                "label": "Prøv dynevælgeren her",
+                "url": "https://ringsted-dun.dk/dynevaelger/"
+            }
+        }
+    },
+
+    {
+        "day": 4,
+        "date": "2026-12-04",
+        "content": {
+            "kind": "info",
+            "title": "Lær dynesproget",
+            "text": "Dun, vår, bæreevne... Når man skal købe dyne, møder man mange fagord. Her er de vigtigste forklaret, så du ved, hvad du skal kigge efter, når du leder efter den perfekte dyne.",
+            "facts": [ {
+                "title": "Dun",
+                "text": "Dun holder på varmen ved at fange luft. Derfor kan en dyne være varm og let på samme tid."
+            },
+            {
+                "title": "Bomuldsvår",
+                "text": "Betrækket er blødt og åndbart, så temperaturen under dynen forbliver behagelig."
+            },
+            {
+                "title": "Bæreevne",
+                "text": "Bæreevnen viser, hvor godt dunene isolerer. Jo højere bæreevne, jo mere varme får du uden et tungt fyld."
+            },
+            {
+                "title": "Den rette kombination",
+                "text": "Når materialer og varmegrad passer til dig, undgår du at fryse eller svede om natten. Det giver de bedste forudsætninger for en god søvn."
+            }
+        ]
+    }
+    },
+
+    {
+        "day": 5,
+        "date": "2026-12-05",
+        "content": {
+            "kind": "info",
+            "title": "Pas godt på din dyne",
+            "text": "Skal din dyne holde lige til påske, og mange år frem? Med lidt pleje kan den holde sig frisk og luftig i lang tid.",
+            "facts": [ {
+                "title": "Ryst den hver dag",
+                "text": "Ryst dynen fra forskellige sider, så dunene fordeler sig jævnt."
+            },
+            {
+                "title": "Lad den ånde om morgenen",
+                "text": "Slå dynen til side, når du står op, så fugten fra natten kan forsvinde."
+            },
+            {
+                "title": "Luft den udenfor",
+                "text": "Luft gerne dynen i betrækket, men undgå direkte sollys og regn."
+            },
+            {
+                "title": "Vinteren er dynens bedste ven",
+                "text": "Den kolde, tørre vinterluft er perfekt til at lufte dynen ud."
+            }
+        ]
+    }
+    },
+
+    {
+        "day": 6,
+        "date": "2026-12-06",
+        "content": {
+            "kind": "invite",
+            "title": "Giv en god nats søvn videre",
+            "text": "Kender du én, der fortjener en bedre nattesøvn? Inviter dem med i Ringsted Duns julekalender, og optjen ekstra stjerner."
+    }
+    },
+
+    {
+        "day": 7,
+        "date": "2026-12-07",
+        "content": {
+            "kind": "trueFalse",
+            "title": "Sandt eller falsk?",
+            "statement": "Man kan indhente manglende søvn ved at sove længe i weekenden.",
+            "correct": false,
+            "explanation": "Falsk! Lidt ekstra søvn i weekenden kan hjælpe, men det retter ikke op på en hel uge med for lidt søvn. Når du sover længe, rykker du også din døgnrytme, så det bliver sværere at falde i søvn søndag aften. Faste sengetider hver dag giver den bedste søvn."
+    }
+    },
+
+    {
+        "day": 8,
+        "date": "2026-12-08",
+        "content": {
+            "kind": "info",
+            "title": "Dagens tip til en hyggelig aften",
+            "text": "En god nats søvn starter, før du lægger dig. Prøv de her tre ting i aften.",
+            "facts": [ {
+                "title": "Læg mobilen væk",
+                "text": "Sæt telefonen til side 30 minutter før sengetid, så hjernen kan begynde at falde til ro."
+            },
+            {
+                "title": "Find roen",
+                "text": "Brug tiden på at læse en bog eller lytte til rolig musik."
+            },
+            {
+                "title": "Gør soveværelset klar",
+                "text": "Sluk lyset, luft ud og ryst dynen, så sengen er klar til dig."
+            }
+        ]
+    }
+    },
+
+    {
+        "day": 9,
+        "date": "2026-12-09",
+        "content": {
+            "kind": "trueFalse",
+            "title": "Vidste du det?",
+            "statement": "Ringsted Dun bruger kun dun og fjer fra fugle, der er slagtet til fødevarer.",
+            "correct": true,
+            "explanation": "Sandt! Vi bruger udelukkende dun og fjer, der er et biprodukt fra fødevareproduktionen. Fjerene bliver først indsamlet, efter fuglene er slagtet til fødevarer. På den måde tager vi ansvar for dyrevelfærden."
+    }
+    },
+
+    {
+        "day": 10,
+        "date": "2026-12-10",
+        "content": {
+            "kind": "offer",
+            "title": "Gratis fragt i dag",
+            "text": "Der er præcis to uger til juleaften. Mangler du stadig en gave? Kender du én, der trænger til en bedre nattesøvn? En pude eller dyne fra Ringsted Dun er en gave, der bliver brugt hver nat. I dag får du gratis fragt, så gaven kan nå frem til jul.",
+            "code": "JULEFRAGT",
+            "link": {
+                "label": "Find gaven her",
+                "url": "https://ringsted-dun.dk/"
+        }
+    }
     }
 ]
