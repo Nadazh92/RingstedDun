@@ -1,4 +1,4 @@
-[
+[   
     {
         "day": 1,
         "date": "2026-12-01",
@@ -12,7 +12,7 @@
                 {"id": 2, "text": "7-9 timer", "correct": true},
                 {"id": 3, "text": "9-10 timer", "correct": false}
             ],
-            "explanation": "De fleste voksne har brug for omkring 7–9 timers søvn, selvom behovet varierer fra person til person."
+            "explanation": "De fleste voksne har brug for omkring 7-9 timers søvn, selvom behovet varierer fra person til person."
         }
     },
 
@@ -102,7 +102,8 @@
         "content": {
             "kind": "invite",
             "title": "Giv en god nats søvn videre",
-            "text": "Kender du én, der fortjener en bedre nattesøvn? Inviter dem med i Ringsted Duns julekalender, og optjen ekstra stjerner."
+            "text": "Kender du én, der fortjener en bedre nattesøvn? Inviter dem med i Ringsted Duns julekalender, og optjen ekstra stjerner.",
+            "url" : ""
     }
     },
 
@@ -166,5 +167,140 @@
                 "url": "https://ringsted-dun.dk/"
         }
     }
+    }, 
+
+    {
+         "day": 11,
+        "date": "2026-12-11",
+        "content": {
+            "kind": "info",
+            "title": "Tænk over,Hvordan sover du ?",
+            "text": "Ligger du på siden, ryggen eller maven? Det er dit første skridt mod den rigtige pude.Har du brug for sparring sidder Ringsted Dun klar til at finde den pude der netop passer til dig",
+            "link": {
+                "label": "Links til anbefalede Puder",
+                "url": "https://ringsted-dun.dk/classic-prestige-3-kamm"
+            }
+        }   
+    },
+
+    {
+        "day": 12,
+        "date": "2026-12-12",
+        "content": {
+            "kind": "trueFalse",
+            "title": "Sandt eller falsk",
+            "statement": "Sandt eller falsk: Din dyne har brug for en pause om morgenen.",
+            "correct": false,
+            "explanation": "Falsk. Dynen optager fugt i løbet af natten. Lad den ligge åbent lidt, så fugten kan slippe væk, inden du reder sengen"
     }
+    },
+    
+    {
+        "day": 13,
+        "date": "2026-12-13",
+        "content" : {
+            "kind" : "info",
+            "title": "ABC", 
+            "text" : "ABC"
+              
+    }
+    },
+
+    {
+        "day": 14,
+        "date": "2026-12-01",
+        "content": {
+            "kind": "quiz",
+            "title": "Dyr symboliserer Jul",
+            "question": "Hvilket dyr symboliserer både jul og dynekvalitet",
+            "options": [
+                {"id": 1, "text": "geden", "correct": false},
+                {"id": 2, "text": "mårhunden", "correct": false},
+                {"id": 3, "text": "gåsen", "correct": true}
+            ],
+            "explanation": "Gåsen symboliserer Både Jul og dynekvalitet"
+        }
+
+        
+    },
+
+
+
+
+
+
+
+
+
+
+
+     {
+         "day": 15,
+        "date": "2026-12-15",
+        "content": {
+            "kind": "info",
+            "title": "Fyglen plukker selv fjer",
+            "text": "Prinsessen på ærten - vidste du, at ederdunsdyner består af fjer, fuglen selv plukker? Fjerene samles efterfølgende fra deres reder.",
+                "label": "Links til anbefalede Puder",
+                "url": "ABC"
+            }
+        },  
+    
+
+ 
+
+
+
+
+
+    
+
+    {
+        "day": 29,
+        "date": "2026-11-29",
+        "content": {
+            "kind": "advent",
+            "title": "Glædelig 1. søndag i advent!",
+            "text": "Gå en veludhvilet juletid i møde med tips, spændende fakta og rabatter ved at åbne vores låger i løbet af december. Til en begyndelse, vil vi gerne tilbyde dig en rabatkode på 10% til udvalgte dyner hos ringsted-dun.dk - rabatten er gyldig t.o.m. d. 24. december.",
+            "code": "24DunNisser"
+
+    }
+    },
+
+    {
+        "day": 6,
+        "date": "2026-12-06",
+        "content": {
+            "kind": "advent",
+            "title": "Glædelig 2. søndag i advent!",
+            "text": "",
+            "code": ""
+
+    }
+    },
+
+    {
+        "day": 13,
+        "date": "2026-12-13",
+        "content": {
+            "kind": "advent",
+            "title": "Glædelig 3. søndag i advent!",
+            "text": "",
+            "code": ""
+
+    }
+    },
+
+    {
+        "day": 20,
+        "date": "2026-12-20",
+        "content": {
+            "kind": "advent",
+            "title": "Glædelig 4. søndag i advent!",
+            "text": "",
+            "code": ""
+
+    }
+    }
+
 ]
