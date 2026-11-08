@@ -190,8 +190,8 @@
             "kind": "trueFalse",
             "title": "Sandt eller falsk",
             "statement": "Sandt eller falsk: Din dyne har brug for en pause om morgenen.",
-            "correct": false,
-            "explanation": "Falsk. Dynen optager fugt i løbet af natten. Lad den ligge åbent lidt, så fugten kan slippe væk, inden du reder sengen"
+            "correct": true,
+            "explanation": "Sandt. Dynen optager fugt i løbet af natten. Lad den ligge åbent lidt, så fugten kan slippe væk, inden du reder sengen"
     }
     },
     
@@ -208,7 +208,7 @@
 
     {
         "day": 14,
-        "date": "2026-12-01",
+        "date": "2026-12-14",
         "content": {
             "kind": "quiz",
             "title": "Dyr symboliserer Jul",
@@ -225,15 +225,6 @@
     },
 
 
-
-
-
-
-
-
-
-
-
      {
          "day": 15,
         "date": "2026-12-15",
@@ -244,7 +235,150 @@
                 "label": "Links til anbefalede Puder",
                 "url": "ABC"
             }
-        },  
+        }, 
+
+    {
+        "day": 16,
+        "date": "2026-12-16",
+        "content": {
+            "kind": "video",
+            "title": "Derfor skal du vælge naturfyld",
+            "text": "Hvad er egentlig forskellen på naturfyld og syntetisk fyld? I videoen fortæller Ringsted Dun, hvorfor dyner og puder med naturfyld giver dig en bedre nattesøvn.",
+            "video": {
+                "url": "https://www.youtube.com/embed/oitQh1YwX6k",
+                "caption": "Derfor skal du vælge dyner og puder med naturfyld"
+            }
+        }
+    },
+
+    {
+        "day": 17,
+        "date": "2026-12-17",
+        "content": {
+            "kind": "quiz",
+            "title": "Sådan får du din dyne til at holde længere",
+            "question": "Hvilken af disse vaner hjælper med at vedligeholde din dyne?",
+            "options": [
+                {"id": 1, "text": "Vaske dynen så ofte som muligt, så den altid er helt ren", "correct": false},
+                {"id": 2, "text": "Ryste dynen regelmæssigt, lufte den og følge vaskeanvisningen", "correct": true},
+                {"id": 3, "text": "Lufte dynen i direkte sollys hver dag", "correct": false},
+                {"id": 4, "text": "Folde dynen stramt sammen hver morgen, så fyldet holder formen", "correct": false}
+            ],
+            "explanation": "Ryst dynen fra forskellige sider, og lad den komme af med fugten om morgenen. Luft den gerne i betrækket, men undgå direkte sollys."
+        }
+    },
+
+    {
+        "day": 18,
+        "date": "2026-12-18",
+        "content": {
+            "kind": "info",
+            "title": "Et juleeventyr under dynen",
+            "text": "Gå videre i linket og få et H.C. Andersen-juleeventyr, I kan læse højt for hinanden under dynerne i aften. Læg eventuelt andre skærme væk, skru ned for skærmlyset og nyd ro og samvær.",
+            "link": {
+                "label": "Læs eventyret her",
+                "url": "https://www.dansktip.dk:7081/download-file/61a6a6f5?timestamp=1764436467.5687"
+            }
+        }
+    },
+
+    {
+        "day": 19,
+        "date": "2026-12-19",
+        "content": {
+            "kind": "quiz",
+            "title": "Gave i kalenderen!",
+            "subtitle": "Vi trækker lod om en Ringsted Dun-pude, der passer til netop din sovestil.",
+            "question": "Hvad er det vigtigste for dig, når du sover? Vælg dit svar, og deltag i lodtrækningen.",
+            "options": [
+                {"id": 1, "text": "Blødhed", "correct": true},
+                {"id": 2, "text": "Støtte", "correct": true},
+                {"id": 3, "text": "Temperatur", "correct": true}
+            ],
+            "explanation": "Tak for dit svar! Du er nu med i lodtrækningen om en Ringsted Dun-pude, der passer til din sovestil."
+        }
+    },
+
+    {
+        "day": 20,
+        "date": "2026-12-20",
+        "content": {
+            "kind": "trueFalse",
+            "title": "Sandt eller falsk?",
+            "statement": "Hvis man sover to i sengen, kan det give en bedre nattesøvn at have hver sin dyne.",
+            "correct": true,
+            "explanation": "Sandt! Når din partner vender sig eller trækker i dynen, kan du blive vækket. Med hver sin dyne undgår du det, og I kan vælge hver jeres varmegrad, hvis den ene fryser og den anden sveder."
+        }
+    },
+
+    {
+        "day": 21,
+        "date": "2026-12-21",
+        "content": {
+            "kind": "quiz",
+            "title": "Puden gør større forskel, end du tror",
+            "subtitle": "Som din søvnekspert kan Ringsted Dun hjælpe dig med at finde den perfekte pude. Din sovestilling afgør, hvilken pude du har brug for.",
+            "question": "Hvordan sover du?",
+            "options": [
+                {"id": 1, "text": "På siden", "correct": true, "explanation": "Som sidesover har du brug for en højere og fastere pude."},
+                {"id": 2, "text": "På ryggen", "correct": true, "explanation": "Som rygsover har du brug for en mellemhøj pude, der støtter nakken."},
+                {"id": 3, "text": "På maven", "correct": true, "explanation": "Som mavesover har du brug for en flad, blød pude, eller slet ingen."}
+            ],
+            "explanation": "",
+            "link": {
+                "title": "Ringsted Dun Classic fås i flere højder, så du kan vælge den støtte, der passer til dig.",
+                "label": "Se alle puder her",
+                "url": "https://ringsted-dun.dk/puder/"
+            }
+        }
+    },
+
+    {
+        "day": 22,
+        "date": "2026-12-22",
+        "content": {
+            "kind": "quiz",
+            "title": "Hvad er den bedste temperatur i soveværelset?",
+            "subtitle": "Test din viden om søvn",
+            "question": "Hvilken temperatur er et godt udgangspunkt for en behagelig nattesøvn?",
+            "options": [
+             {"id": 1, "text": "16–19 °C", "correct": true},
+                {"id": 2, "text": "20–24 °C", "correct": false},
+                {"id": 3, "text": "25–27 °C", "correct": false}
+            ],
+            "explanation": "Et køligt soveværelse på cirka 16–19 °C fungerer godt for mange, men den ideelle temperatur varierer.",
+            "link": {
+                "title": "Find den dyne, der passer til temperaturen i dit soveværelse.",
+                "label": "Se vores dyner her",
+                "url": "https://ringsted-dun.dk/dyner/komfort/"
+            }
+        }
+    },
+
+    {
+        "day": 23,
+        "date": "2026-12-23",
+        "content": {
+            "kind": "offer",
+            "title": "Dagens overraskelse",
+            "text": "Nu er julen lige om hjørnet, og vi vil gerne sige tak, fordi du har åbnet lågerne med os i december. Hele Ringsted Dun-teamet ønsker dig en glædelig jul og mange gode nætters søvn. Som en lille tidelig julegave får du 20 % rabat på vores Snedronningen-puder.",
+            "code": "SNEDRONNING",
+            "link": {
+                "label": "Se Snedronningen-puderne her",
+                "url": "https://ringsted-dun.dk/snedronningen-puder/"
+            }
+        }
+    },
+
+    {
+        "day": 24,
+        "date": "2026-12-24",
+        "content": {
+            "kind": "info",
+            "title": "Glædelig jul og god søvn!",
+            "text": "Nu har du fået alle vores tips til en god nats søvn. Med de stjerner, du har samlet gennem julekalenderen, deltager du i konkurrencen om at vinde to af vores Den lille pige med svovlstikkerne-dyner. Hele Ringsted Dun ønsker dig en glædelig jul, og vi håber, du tager dine nye og bedre søvnvaner med ind i det nye år."
+        }
+    },
     
 
  
