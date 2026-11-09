@@ -56,3 +56,40 @@ body{
         }
     }
 }
+
+.footer-container{
+    background-color: variables.$darkGrey;
+    color: variables.$primaryColor;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        gap:0.5rem;
+
+        a{
+            text-decoration: none;
+            color: variables.$primaryColor;
+            font-size: 18px;
+
+            &:hover{
+               border-bottom: 2px solid variables.$thirdColor;
+            }
+
+        }  
+
+        .some{
+            display: flex;
+            flex-direction: row;
+
+            .fa-square-facebook, .fa-instagram{
+                font-size: 25px;
+            }
+        }
+    }
+
+    
+}
