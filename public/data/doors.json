@@ -244,7 +244,7 @@
             "kind": "video",
             "title": "Derfor skal du vælge naturfyld",
             "text": "Hvad er egentlig forskellen på naturfyld og syntetisk fyld? I videoen fortæller Ringsted Dun, hvorfor dyner og puder med naturfyld giver dig en bedre nattesøvn.",
-            "video": {
+            "vid": {
                 "url": "https://www.youtube.com/embed/oitQh1YwX6k",
                 "caption": "Derfor skal du vælge dyner og puder med naturfyld"
             }
@@ -342,11 +342,11 @@
             "subtitle": "Test din viden om søvn",
             "question": "Hvilken temperatur er et godt udgangspunkt for en behagelig nattesøvn?",
             "options": [
-             {"id": 1, "text": "16–19 °C", "correct": true},
-                {"id": 2, "text": "20–24 °C", "correct": false},
-                {"id": 3, "text": "25–27 °C", "correct": false}
+             {"id": 1, "text": "16-19 °C", "correct": true},
+                {"id": 2, "text": "20-24 °C", "correct": false},
+                {"id": 3, "text": "25-27 °C", "correct": false}
             ],
-            "explanation": "Et køligt soveværelse på cirka 16–19 °C fungerer godt for mange, men den ideelle temperatur varierer.",
+            "explanation": "Et køligt soveværelse på cirka 16-19 °C fungerer godt for mange, men den ideelle temperatur varierer.",
             "link": {
                 "title": "Find den dyne, der passer til temperaturen i dit soveværelse.",
                 "label": "Se vores dyner her",
@@ -378,63 +378,6 @@
             "title": "Glædelig jul og god søvn!",
             "text": "Nu har du fået alle vores tips til en god nats søvn. Med de stjerner, du har samlet gennem julekalenderen, deltager du i konkurrencen om at vinde to af vores Den lille pige med svovlstikkerne-dyner. Hele Ringsted Dun ønsker dig en glædelig jul, og vi håber, du tager dine nye og bedre søvnvaner med ind i det nye år."
         }
-    },
+    }
     
-
- 
-
-
-
-
-
-    
-
-    {
-        "day": 29,
-        "date": "2026-11-29",
-        "content": {
-            "kind": "advent",
-            "title": "Glædelig 1. søndag i advent!",
-            "text": "Gå en veludhvilet juletid i møde med tips, spændende fakta og rabatter ved at åbne vores låger i løbet af december. Til en begyndelse, vil vi gerne tilbyde dig en rabatkode på 10% til udvalgte dyner hos ringsted-dun.dk - rabatten er gyldig t.o.m. d. 24. december.",
-            "code": "24DunNisser"
-
-    }
-    },
-
-    {
-        "day": 6,
-        "date": "2026-12-06",
-        "content": {
-            "kind": "advent",
-            "title": "Glædelig 2. søndag i advent!",
-            "text": "",
-            "code": ""
-
-    }
-    },
-
-    {
-        "day": 13,
-        "date": "2026-12-13",
-        "content": {
-            "kind": "advent",
-            "title": "Glædelig 3. søndag i advent!",
-            "text": "",
-            "code": ""
-
-    }
-    },
-
-    {
-        "day": 20,
-        "date": "2026-12-20",
-        "content": {
-            "kind": "advent",
-            "title": "Glædelig 4. søndag i advent!",
-            "text": "",
-            "code": ""
-
-    }
-    }
-
 ]

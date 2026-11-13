@@ -1,0 +1,54 @@
+[
+    {
+        "id": "advent",
+        "day": 29,
+        "date": "2026-11-29",
+        "content": {
+            "kind": "advent",
+            "title": "Glædelig 1. søndag i advent!",
+            "text": "Gå en veludhvilet juletid i møde med tips, spændende fakta og rabatter ved at åbne vores låger i løbet af december. Til en begyndelse, vil vi gerne tilbyde dig en rabatkode på 10% til udvalgte dyner hos ringsted-dun.dk - rabatten er gyldig t.o.m. d. 24. december.",
+            "code": "24DunNisser"
+
+        }
+    },
+
+    {
+        "id": "advent",
+        "day": 6,
+        "date": "2026-12-06",
+        "content": {
+            "kind": "advent",
+            "title": "Glædelig 2. søndag i advent!",
+            "text": "",
+            "code": "20Edderdunsdyner"
+
+        }
+    },
+
+    {
+        "id": "advent",
+        "day": 13,
+        "date": "2026-12-13",
+        "content": {
+            "kind": "advent",
+            "title": "Glædelig 3. søndag i advent!",
+            "text": "",
+            "code": ""
+
+        }
+    },
+
+    {
+        "id": "advent",
+        "day": 20,
+        "date": "2026-12-20",
+        "content": {
+            "kind": "advent",
+            "title": "Glædelig 4. søndag i advent!",
+            "text": "",
+            "code": ""
+
+        }
+    }
+
+]

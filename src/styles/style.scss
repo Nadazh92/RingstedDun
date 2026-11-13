@@ -90,6 +90,71 @@ body{
             }
         }
     }
-
-    
+   
 }
+
+main{
+
+    margin: 4rem 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+.door {
+        height: 200px;
+        width: 200px;
+        border-top-left-radius: 200px;
+        border-top-right-radius: 200px;
+        margin: 1rem 1rem;
+        border: 2px solid variables.$mediumGrey;
+        font-size: 40px;
+        
+
+
+    }
+
+.door--opened{
+            background-color: variables.$primaryColor;
+
+        }
+
+.door--available {
+      background-color: variables.$secondaryColor;
+      color:variables.$primaryColor;
+
+}
+
+.door-icon{
+    font-size: 30px;
+
+    .fa-circle-check {
+         color:variables.$secondaryColor;
+         
+         padding-bottom: 10px;
+    }
+    .fa-candy-cane{
+        color:variables.$secondaryColor;
+        padding-top: 10px;
+
+    }
+
+    .fa-lock{
+
+    }
+
+    .fa-gift{
+
+    }
+
+    .fa-snowflake{
+
+    }
+
+    .fa-star{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 20px;
+
+    }
+}
+
+    }
