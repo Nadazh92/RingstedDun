@@ -17,7 +17,8 @@ import type {
 type CalendarProps = {
     progress: CalendarProgress;
     today: string;
-    onOpen: (day: number) => void;
+    // onOpen: (day: number) => void;
+    onOpen : (door:CalendarDoor) => void;
 };
 
 export default function Calendar({

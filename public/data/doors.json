@@ -100,10 +100,11 @@
         "day": 6,
         "date": "2026-12-06",
         "content": {
-            "kind": "invite",
-            "title": "Giv en god nats søvn videre",
-            "text": "Kender du én, der fortjener en bedre nattesøvn? Inviter dem med i Ringsted Duns julekalender, og optjen ekstra stjerner.",
-            "url" : ""
+            "kind": "advent",
+            "title": "Glædelig 1. advent!",
+            "text": "Vi har en lille julegave til dig! Få 10 % rabat på dit næste køb med din personlige adventsrabatkode",
+            "code" : "ADVENT01"
+            
     }
     },
 
@@ -158,13 +159,12 @@
         "day": 10,
         "date": "2026-12-10",
         "content": {
-            "kind": "offer",
-            "title": "Gratis fragt i dag",
-            "text": "Der er præcis to uger til juleaften. Mangler du stadig en gave? Kender du én, der trænger til en bedre nattesøvn? En pude eller dyne fra Ringsted Dun er en gave, der bliver brugt hver nat. I dag får du gratis fragt, så gaven kan nå frem til jul.",
-            "code": "JULEFRAGT",
+            "kind": "info",
+            "title": "ABC",
+            "text": "ABC",
             "link": {
-                "label": "Find gaven her",
-                "url": "https://ringsted-dun.dk/"
+                "label": "ABC",
+                "url": "ABC"
         }
     }
     }, 
@@ -199,9 +199,12 @@
         "day": 13,
         "date": "2026-12-13",
         "content" : {
-            "kind" : "info",
-            "title": "ABC", 
-            "text" : "ABC"
+            "kind" : "advent",
+            "title": "Glædelig 2. advent!", 
+            "text" : "Vi har endnu en julegave til dig! Få fri fragt på din næste bestilling med din særlige adventskode. Nu bliver julehyggen endnu bedre!",
+            "code" : "ADVENT02"
+            
+            
               
     }
     },
@@ -232,8 +235,10 @@
             "kind": "info",
             "title": "Fyglen plukker selv fjer",
             "text": "Prinsessen på ærten - vidste du, at ederdunsdyner består af fjer, fuglen selv plukker? Fjerene samles efterfølgende fra deres reder.",
+            "link" : {
                 "label": "Links til anbefalede Puder",
                 "url": "ABC"
+            }
             }
         }, 
 
@@ -244,7 +249,7 @@
             "kind": "video",
             "title": "Derfor skal du vælge naturfyld",
             "text": "Hvad er egentlig forskellen på naturfyld og syntetisk fyld? I videoen fortæller Ringsted Dun, hvorfor dyner og puder med naturfyld giver dig en bedre nattesøvn.",
-            "vid": {
+            "video": {
                 "url": "https://www.youtube.com/embed/oitQh1YwX6k",
                 "caption": "Derfor skal du vælge dyner og puder med naturfyld"
             }
@@ -303,11 +308,11 @@
         "day": 20,
         "date": "2026-12-20",
         "content": {
-            "kind": "trueFalse",
-            "title": "Sandt eller falsk?",
-            "statement": "Hvis man sover to i sengen, kan det give en bedre nattesøvn at have hver sin dyne.",
-            "correct": true,
-            "explanation": "Sandt! Når din partner vender sig eller trækker i dynen, kan du blive vækket. Med hver sin dyne undgår du det, og I kan vælge hver jeres varmegrad, hvis den ene fryser og den anden sveder."
+            "kind": "advent",
+            "title": "Glædelig 3. advent!",
+            "text" : "Julen er tid til ekstra forkælelse! Vi giver dig 15 % rabat på dit næste køb. Brug din adventsrabatkode og forkæl dig selv.",
+            "code" : "ADVENT20"
+           
         }
     },
 
@@ -359,13 +364,12 @@
         "day": 23,
         "date": "2026-12-23",
         "content": {
-            "kind": "offer",
-            "title": "Dagens overraskelse",
-            "text": "Nu er julen lige om hjørnet, og vi vil gerne sige tak, fordi du har åbnet lågerne med os i december. Hele Ringsted Dun-teamet ønsker dig en glædelig jul og mange gode nætters søvn. Som en lille tidelig julegave får du 20 % rabat på vores Snedronningen-puder.",
-            "code": "SNEDRONNING",
+            "kind": "info",
+            "title": "ABC",
+            "text": "ABC",
             "link": {
-                "label": "Se Snedronningen-puderne her",
-                "url": "https://ringsted-dun.dk/snedronningen-puder/"
+                "label": "ABC",
+                "url": "ABC"
             }
         }
     },
@@ -374,9 +378,11 @@
         "day": 24,
         "date": "2026-12-24",
         "content": {
-            "kind": "info",
+            "kind": "christmasReward",
             "title": "Glædelig jul og god søvn!",
-            "text": "Nu har du fået alle vores tips til en god nats søvn. Med de stjerner, du har samlet gennem julekalenderen, deltager du i konkurrencen om at vinde to af vores Den lille pige med svovlstikkerne-dyner. Hele Ringsted Dun ønsker dig en glædelig jul, og vi håber, du tager dine nye og bedre søvnvaner med ind i det nye år."
+            "text": "Nu har du fået alle vores tips til en god nats søvn. Med de stjerner, du har samlet gennem julekalenderen. Hele Ringsted Dun ønsker dig en glædelig jul, og vi håber, du tager dine nye og bedre søvnvaner med ind i det nye år.",
+            "code" : "GLÆDIGJUL24"
+           
         }
     }
     

@@ -1,28 +1,4 @@
-// import { useState } from 'react'
-// import Header from './components/Header'
-// import Footer from './components/Footer'
-// import Calendar from './components/Calendar'
 
-
-
-
-// function App() {
-//   const [count, setCount] = useState(0)
-
-//   return (
-//     <>
-   
-//     <Header/>
-      
-//     <Footer/>
-    
-
-   
-//     </>
-//   )
-// }
-
-// export default App
 
 import { useState } from "react";
 
@@ -30,9 +6,12 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Calendar from "./components/Calendar";
 
+
 //import { getTodayDate } from "./types/Calendar";
 
 import type { CalendarProgress } from "./types/Calendar";
+import DoorsContent from "./components/DoorsContent";
+import type { CalendarDoor } from "./types/Calendar";
 
 function App() {
 
@@ -44,10 +23,14 @@ function App() {
         lastOpenedDate: null 
     });
 
-    function handleOpen(day: number) {
+    const [selectedDoor, setSelectedDoor]= useState <CalendarDoor | null>(null);
 
-        // Kontrollér, om lågen allerede er åbnet
-        if (progress.openedDoors.includes(day)) {
+    // function handleOpen(day: number)
+    function handleOpen(door:CalendarDoor) {
+
+        // Kontrollér, om lågen allerede er åbnet, må den gerne vises igen
+        if (progress.openedDoors.includes(door.day)) {
+          setSelectedDoor(door);
             return;
         }
 
@@ -58,23 +41,31 @@ function App() {
         }
 
         const updatedProgress: CalendarProgress = {
-            openedDoors: [...progress.openedDoors, day],
+            openedDoors: [...progress.openedDoors, door.day],
             lastOpenedDate: today
         };
 
         setProgress(updatedProgress);
+        setSelectedDoor(door);
 
     }
 
     return (
         <>
             <Header />
-
+            
             <main>
+              
+
                 <Calendar
                     progress={progress}
                     today={today}
                     onOpen={handleOpen}
+                />
+
+                <DoorsContent 
+                door={selectedDoor} 
+                onClose ={() => setSelectedDoor(null)}
                 />
             </main>
 

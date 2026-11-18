@@ -36,7 +36,7 @@ export type Options = {
 export type quiz = {
     kind: "quiz";
     title: string;
-    subtitle: string;
+    subtitle?: string;
     question: string;
     options: Options [];
     explanation: string;
@@ -66,8 +66,8 @@ export type info = {
     kind: "info";
     title: string;
     text: string;
-    link: Link; 
-    facts: Facts[];
+    link?: Link; 
+    facts?: Facts[];
     
 }
 
@@ -90,23 +90,17 @@ export type invite = {
     url: string;
 }
 
-export type offer = {
-    kind: "offer";
-    title: string;
-    text: string;
-    code: string;
-    link: Link;
-
-}
 
 export type advent = {
-    kind: "advent";
+    kind: "advent" | "christmasReward";
     title: string;
     text: string;
     code: string; 
 }
 
-export  type CalenderContent =  quiz | trueFalse | info | invite | offer | advent;
+
+
+export  type CalenderContent =  quiz | trueFalse | info | invite | advent | video ;
 
 
 export  type CalendarDoor = {

@@ -4,7 +4,8 @@ import type {CalendarDoor , doorStatus} from '../types/Calendar';
 type DoorProps = {
     door: CalendarDoor;
     status: doorStatus;
-    onOpen: (day:number) => void; //En funktion, som modtager lågens nummer.
+    // onOpen: (day:number) => void; //En funktion, som modtager lågens nummer.
+    onOpen: (door:CalendarDoor) => void;
 };
 
 export default function Door({door, status, onOpen }: DoorProps) {
@@ -12,7 +13,8 @@ export default function Door({door, status, onOpen }: DoorProps) {
 
     function handleClick() {
         if(status === "available" || status === "opened") {
-            onOpen(door.day);
+            //  onOpen(door.day);
+            onOpen(door);
             
         }
 
